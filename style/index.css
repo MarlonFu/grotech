@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: rubik;
+    src: url("../fonts/rubik-regular.ttf")
+}
+@font-face {
+    font-family: josefin-semibold;
+    src: url("../fonts/josefin-semibold.ttf")
+}
+@font-face {
+    font-family: josefin-regular;
+    src: url("../fonts/josefin-regular.ttf")
+}
+/* Background Waves */
+.background {
+    background-image: url("../images/index/leftGradient.png"), url("../images/index/rightGradient.png");
+    background-position: left top, right top;
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    float: right;
+    font-weight: 300;
+    font-family: josefin-regular;
+    margin-bottom: 1.5%;
+    margin-top: 2%;
+    margin-right: 1.5%;
+} .navbar a {
+    color: #777777;
+    margin: 2vw;
+    text-decoration: none;
+    font-size: 1vw;
+} .navbar a.active {
+    color: #55B469;
+} .navbar a:hover {
+    padding-bottom: 3px;
+    border-bottom: 1px solid #777777;
+}
+
+.navline {
+    opacity: 0.3;
+    width: 93%;
+} .navline.two {
+    margin-top: 4%;
+    width: 75%;
+    margin-bottom: 2%;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    width: 93%;
+    margin: 0 auto 0 auto;
+    align-items: center;
+    margin-top: 3.5%;
+    text-align: center;
+} .header-tagline {
+    height: auto;
+    width: 50%;
+    margin-bottom: 2%;
+} .header-text {
+    font-family: rubik;
+    color: #777777;
+    font-size: 1.1vw;
+    width: 75%;
+    letter-spacing: 1.5px;
+} .header-button {
+    width: 13vw;
+    height: 2.5vw;
+    margin-top: 2%;
+    padding-bottom: 1px;
+    padding-top: 5px;
+    text-align: center;
+    line-height: inherit;
+    background-color: white;
+    font-family: josefin-semibold;
+    font-size: 1vw;
+    color: #55B469;
+    letter-spacing: 0.16em;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.14);
+} .header-button:hover {
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.05);
+}
+
+.news {
+    display: flex;
+    margin-top: 2%;
+    flex-direction: column;
+    width: 93%;
+    margin: 0 auto 0 auto;
+    text-align: center;
+} .news-title {
+    font-family: josefin-semibold;
+    font-size: 1.5vw;
+    letter-spacing: 0.2em;
+    color: #777777;
+}
+
