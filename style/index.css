@@ -18,6 +18,7 @@
     background-image: url("../images/index/leftGradient.png"), url("../images/index/rightGradient.png");
     background-position: left top, right top;
     background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .navbar {
@@ -43,9 +44,7 @@
     opacity: 0.3;
     width: 93%;
 } .navline.two {
-    margin-top: 4%;
     width: 75%;
-    margin-bottom: 2%;
 }
 
 .header {
@@ -54,8 +53,9 @@
     width: 93%;
     margin: 0 auto 0 auto;
     align-items: center;
-    margin-top: 3.5%;
+    margin-top: 4%;
     text-align: center;
+    margin-bottom: 6vw;
 } .header-tagline {
     height: auto;
     width: 50%;
@@ -88,15 +88,78 @@
 
 .news {
     display: flex;
-    margin-top: 2%;
     flex-direction: column;
     width: 93%;
     margin: 0 auto 0 auto;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
     text-align: center;
+    text-justify: center;
+    align-items: center;
 } .news-title {
     font-family: josefin-semibold;
     font-size: 1.5vw;
     letter-spacing: 0.2em;
     color: #777777;
+} .news-body {
+    font-family: rubik;
+    font-size: 0.9vw;
+    width: 60%;
+    color: #777777;
+    margin-bottom: 2%;
+    letter-spacing: 0.05em;
+} .news-button {
+    width: 8vw;
+    height: 1.5vw;
+    font-family: josefin-semibold;
+    font-size: 0.65vw;
+    color: #777777;
+    letter-spacing: 0.12em;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.12);
+    padding-top: 5px;
+} .news-button:hover {
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.03)
 }
 
+.projects {
+    margin-top: 5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} .projects-title {
+    font-family: josefin-semibold;
+    font-size: 2vw;
+    letter-spacing: 0.2em;
+    color: #55B469;
+} .project-cards {
+    display: flex;
+    flex-direction: column;
+} .project-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+} .project-card {
+    background-color: blue;
+    border-radius: 20px;
+    width: 30vw;
+    height: 17vw;
+    margin: 1.5vw;
+    padding: 1.5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: #FFFFFF;
+    box-shadow: 4px 4px 0.9vw rgba(85, 180, 105, 0.26);
+} .project-icon {
+
+} .project-name {
+    font-family: josefin-semibold;
+    color: #777777;
+} .project-descriptor {
+    font-family: rubik;
+    color: #777777;
+
+}
