@@ -70,8 +70,8 @@
     width: 13vw;
     height: 2.5vw;
     margin-top: 2%;
-    padding-bottom: 1px;
     padding-top: 5px;
+    padding-bottom: 1px;
     text-align: center;
     line-height: inherit;
     background-color: white;
@@ -84,6 +84,7 @@
     box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.14);
 } .header-button:hover {
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.05);
+    font-size: 0.99vw;
 }
 
 .news {
@@ -117,10 +118,11 @@
     letter-spacing: 0.12em;
     border-radius: 4px;
     border: none;
-    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.12);
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.10);
     padding-top: 5px;
 } .news-button:hover {
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.03)
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.05);
+    font-size: 0.64vw;
 }
 
 .projects {
@@ -141,25 +143,68 @@
     flex-direction: row;
     justify-content: space-between;
 } .project-card {
-    background-color: blue;
+    display: flex;
     border-radius: 20px;
     width: 30vw;
     height: 17vw;
     margin: 1.5vw;
     padding: 1.5vw;
-    display: flex;
+    justify-content: center;
     flex-direction: column;
     align-items: center;
     text-align: center;
     background: #FFFFFF;
     box-shadow: 4px 4px 0.9vw rgba(85, 180, 105, 0.26);
 } .project-icon {
-
+    width: 15%;
+    height: auto;
+    margin-bottom: 0.4vw;
 } .project-name {
+    margin-bottom: 0px;
     font-family: josefin-semibold;
     color: #777777;
+    font-size: 1vw;
 } .project-descriptor {
     font-family: rubik;
     color: #777777;
+    font-size: 0.7vw;
+    width: 90%;
+} .phone-icon {
+    width: auto;
+    height: 25%;
+    margin-bottom: 0.4vw;
+} .project-button {
+    width: 16vw;
+    height: 2vw;
+    font-family: josefin-semibold;
+    font-size: 0.65vw;
+    color: #777777;
+    letter-spacing: 0.12em;
+    padding-top: 5px;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.10);
+    margin-top: 2vw;
+    margin-bottom: 10vw;
+} .project-button:hover {
+    font-size: 0.64vw;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.05);
+}
 
+.foot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(85, 180, 105, 0.43);
+    font-family: josefin-semibold;
+    color: white;
+    height: 7vw;
+    justify-content: center;
+    text-align: center;
+} .social-icons {
+    width: 1.5vw;
+    height: 1.5vw;
+    margin: 1vw 1vw 0 1vw;
+} .wdb {
+    font-size: 1vw;
 }
