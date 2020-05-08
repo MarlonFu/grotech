@@ -1,1 +1,1 @@
-# Open index.html to navigate the site
+# Open index.html from static folder to navigate the site
