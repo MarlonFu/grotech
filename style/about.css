@@ -53,6 +53,10 @@
 	padding-bottom: 3px;
 	border-bottom: 1px solid #777777;
 }
+.navbar .active:hover {
+	padding-bottom: 3px;
+	border-bottom: 1px solid #55b469;
+}
 
 .navline {
 	opacity: 0.3;

@@ -23,9 +23,7 @@
 	background-position: left top, right top, bottom left, bottom right;
 	background-repeat: no-repeat;
 	background-size: 100%;
-	background-attachment: fixed;
 	margin: 0px;
-	min-height: 100vh;
 }
 
 .nav {
@@ -55,6 +53,10 @@
 .navbar a:hover {
 	padding-bottom: 3px;
 	border-bottom: 1px solid #777777;
+}
+.navbar .active:hover {
+	padding-bottom: 3px;
+	border-bottom: 1px solid #55b469;
 }
 
 .navline {
