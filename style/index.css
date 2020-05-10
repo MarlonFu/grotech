@@ -46,6 +46,9 @@
 	margin: 2vw;
 	text-decoration: none;
 	font-size: 1vw;
+	border-bottom: 1px solid transparent;
+	padding-bottom: 3px;
+	transition: border-bottom 0.7s;
 }
 .navbar a.active {
 	color: #55b469;
@@ -90,13 +93,12 @@
 	letter-spacing: 1.5px;
 }
 .header-button {
+	display: flex;
 	width: 13vw;
 	height: 2.5vw;
 	margin-top: 2%;
-	padding-top: 5px;
-	padding-bottom: 1px;
-	text-align: center;
-	line-height: inherit;
+	align-items: center;
+	justify-content: center;
 	background-color: white;
 	font-family: josefin-semibold;
 	font-size: 1vw;
@@ -105,10 +107,13 @@
 	border-radius: 5px;
 	border: none;
 	box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.14);
+	transition: font-size 0.5s;
+	text-decoration: none;
 }
 .header-button:hover {
 	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.05);
-	font-size: 0.99vw;
+	font-size: 0.97vw;
+	text-decoration: none;
 }
 
 .news {
@@ -137,8 +142,12 @@
 	letter-spacing: 0.05em;
 }
 .news-button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	width: 8vw;
 	height: 1.5vw;
+	background-color: #ffffff;
 	font-family: josefin-semibold;
 	font-size: 0.65vw;
 	color: #777777;
@@ -146,11 +155,13 @@
 	border-radius: 4px;
 	border: none;
 	box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
-	padding-top: 5px;
+	transition: font-size 0.5s;
+	text-decoration: none;
 }
 .news-button:hover {
 	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.05);
-	font-size: 0.64vw;
+	font-size: 0.62vw;
+	text-decoration: none;
 }
 
 .projects {
@@ -211,22 +222,28 @@
 	margin-bottom: 0.4vw;
 }
 .project-button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: white;
 	width: 16vw;
 	height: 2vw;
 	font-family: josefin-semibold;
 	font-size: 0.65vw;
 	color: #777777;
 	letter-spacing: 0.12em;
-	padding-top: 5px;
 	border-radius: 4px;
 	border: none;
 	box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
 	margin-top: 2vw;
 	margin-bottom: 10vw;
+	transition: font-size 0.5s;
+	text-decoration: none;
 }
 .project-button:hover {
-	font-size: 0.64vw;
+	font-size: 0.62vw;
 	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.05);
+	text-decoration: none;
 }
 
 .wrap {
