@@ -45,7 +45,7 @@
 	color: #777777;
 	margin: 2vw;
 	text-decoration: none;
-	font-size: 1vw;
+	font-size: 1.05vw;
 	border-bottom: 1px solid transparent;
 	padding-bottom: 3px;
 	transition: border-bottom 0.7s;
@@ -88,8 +88,9 @@
 .header-text {
 	font-family: rubik;
 	color: #777777;
-	font-size: 1.1vw;
+	font-size: 1.3vw;
 	width: 75%;
+	margin-top: 0.5vw;
 	letter-spacing: 1.5px;
 }
 .header-button {
@@ -104,14 +105,14 @@
 	font-size: 1vw;
 	color: #55b469;
 	letter-spacing: 0.16em;
-	border-radius: 5px;
+	border-radius: 0.3vw;
 	border: none;
 	box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.14);
-	transition: font-size 0.5s;
+	transition: font-size 0.5s, box-shadow 0.5s;
 	text-decoration: none;
 }
 .header-button:hover {
-	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.05);
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.01);
 	font-size: 0.97vw;
 	text-decoration: none;
 }
@@ -129,38 +130,39 @@
 }
 .news-title {
 	font-family: josefin-semibold;
-	font-size: 1.5vw;
+	font-size: 1.7vw;
 	letter-spacing: 0.2em;
 	color: #777777;
 }
 .news-body {
 	font-family: rubik;
-	font-size: 0.9vw;
+	font-size: 1vw;
 	width: 60%;
 	color: #777777;
 	margin-bottom: 2%;
+	margin-top: 0;
 	letter-spacing: 0.05em;
 }
 .news-button {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: 8vw;
-	height: 1.5vw;
+	width: 11vw;
+	height: 2.5vw;
 	background-color: #ffffff;
 	font-family: josefin-semibold;
-	font-size: 0.65vw;
+	font-size: 0.85vw;
 	color: #777777;
 	letter-spacing: 0.12em;
-	border-radius: 4px;
+	border-radius: 0.3vw;
 	border: none;
 	box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
-	transition: font-size 0.5s;
+	transition: font-size 0.5s, box-shadow 0.5s;
 	text-decoration: none;
 }
 .news-button:hover {
-	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.05);
-	font-size: 0.62vw;
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.01);
+	font-size: 0.82vw;
 	text-decoration: none;
 }
 
@@ -187,9 +189,9 @@
 }
 .project-card {
 	display: flex;
-	border-radius: 20px;
-	width: 30vw;
-	height: 17vw;
+	border-radius: 1vw;
+	width: 33vw;
+	height: 18vw;
 	margin: 1.5vw;
 	padding: 1.5vw;
 	justify-content: center;
@@ -198,6 +200,17 @@
 	text-align: center;
 	background: #ffffff;
 	box-shadow: 4px 4px 0.9vw rgba(85, 180, 105, 0.26);
+	opacity: 0;
+	transform: translateY(4em) rotateZ(-15deg) scale(1);
+	transition: transform 0.8s 0.1s ease, opacity 1s 0.4s ease-out;
+	will-change: transform, opacity;
+}
+.project-card.is-visible {
+	opacity: 1;
+	transform: rotateZ(0deg);
+}
+.project-card.is-visible:hover {
+	transform: scale(1.1);
 }
 .project-icon {
 	width: 15%;
@@ -213,8 +226,9 @@
 .project-descriptor {
 	font-family: rubik;
 	color: #777777;
-	font-size: 0.7vw;
+	font-size: 0.8vw;
 	width: 90%;
+	letter-spacing: 0.1em;
 }
 .phone-icon {
 	width: auto;
@@ -226,23 +240,23 @@
 	align-items: center;
 	justify-content: center;
 	background-color: white;
-	width: 16vw;
-	height: 2vw;
+	width: 18vw;
+	height: 2.5vw;
 	font-family: josefin-semibold;
-	font-size: 0.65vw;
+	font-size: 0.9vw;
 	color: #777777;
 	letter-spacing: 0.12em;
-	border-radius: 4px;
+	border-radius: 0.3vw;
 	border: none;
 	box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
 	margin-top: 2vw;
 	margin-bottom: 10vw;
-	transition: font-size 0.5s;
+	transition: font-size 0.5s, box-shadow 0.5s;
 	text-decoration: none;
 }
 .project-button:hover {
-	font-size: 0.62vw;
-	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.05);
+	font-size: 0.87vw;
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.01);
 	text-decoration: none;
 }
 
@@ -257,7 +271,7 @@
 	background: rgba(85, 180, 105, 0.43);
 	font-family: josefin-semibold;
 	color: white;
-	height: 7vw;
+	height: 10vw;
 	width: 100%;
 	justify-content: center;
 	margin: 0 auto 0 auto;
@@ -265,11 +279,27 @@
 	bottom: 0;
 	min-height: 10vh;
 }
+
+.socials {
+	display: flex;
+	flex-direction: row;
+	margin: 0 auto 0 auto;
+}
 .social-icons {
 	width: 1.5vw;
 	height: 1.5vw;
-	margin: 1vw 1vw 0 1vw;
+	margin: 1vw 1vw 0vw 1vw;
+}
+.social-icon {
+	width: inherit;
+	height: inherit;
 }
 .wdb {
-	font-size: 1vw;
+	font-size: 1.2vw;
+	text-shadow: none;
+	transition: transform 0.4s ease, text-shadow 0.4s ease;
+}
+.wdb:hover {
+	transform: translateX(-0.07vw) translateY(-0.07vw);
+	text-shadow: 0.1vw 0.1vw 0.1vw #77777730;
 }
