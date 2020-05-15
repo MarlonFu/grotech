@@ -16,8 +16,8 @@
 
 /* Background Waves */
 .background {
-	background-image: url('../images/index/leftGradient.png'),
-		url('../images/index/rightGradient.png');
+	background-image: url('../images/index/leftGradient.webp'),
+		url('../images/index/rightGradient.webp');
 	background-position: left top, right top;
 	background-repeat: no-repeat;
 	background-size: 100%;
@@ -72,12 +72,17 @@
 }
 
 .past-events {
-	width: 20vw;
+	display: flex;
+	width: 25vw;
 	height: auto;
+	align-self: center;
+	margin: 0 auto 0 auto;
 }
 .events-row {
 	display: flex;
 	flex-direction: row;
+	margin: 0 auto 0 auto;
+	justify-content: center;
 	margin-top: 2vw;
 }
 .event {
@@ -100,7 +105,7 @@
 	display: flex;
 	flex-direction: column;
 	position: relative;
-	width: 24vw;
+	width: 27vw;
 	height: auto;
 	overflow: hidden;
 	border-radius: 0.4vw;
@@ -123,12 +128,12 @@
 }
 .overlay-text {
 	font-family: rubik;
-	font-size: 0.8vw;
+	font-size: 1vw;
 	width: 80%;
 	color: #777777;
 	margin-bottom: 2%;
 	letter-spacing: 0.05em;
-	margin: 4vw auto 0 auto;
+	margin: 2vw auto 0 auto;
 }
 .event-wrap:hover img {
 	transform: scale(1.05);

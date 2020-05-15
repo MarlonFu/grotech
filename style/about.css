@@ -16,10 +16,10 @@
 
 /* Background Waves */
 .background {
-	background-image: url('../images/about/leftGradient.png'),
-		url('../images/about/rightGradient.png'),
-		url('../images/about/bottomLeft.png'),
-		url('../images/about/bottomRight.png');
+	background-image: url('../images/about/leftGradient.webp'),
+		url('../images/about/rightGradient.webp'),
+		url('../images/about/bottomLeft.webp'),
+		url('../images/about/bottomRight.webp');
 	background-position: left top, right top, bottom left, bottom right;
 	background-repeat: no-repeat;
 	background-size: 100%;
@@ -92,8 +92,8 @@
 .header-text {
 	font-family: rubik;
 	color: #777777;
-	font-size: 1vw;
-	width: 60%;
+	font-size: 1.2vw;
+	width: 75%;
 	letter-spacing: 1.5px;
 	margin-bottom: 2%;
 }
@@ -144,7 +144,7 @@
 .member-name {
 	font-family: josefin-regular;
 	text-align: center;
-	font-size: 1.2vw;
+	font-size: 1.4vw;
 	color: #55b469;
 	width: 100%;
 	margin-bottom: 0;
@@ -152,7 +152,7 @@
 .member-role {
 	font-family: rubik;
 	text-align: center;
-	font-size: 0.85vw;
+	font-size: 1vw;
 	width: 150%;
 	margin-top: 0.4vw;
 	margin-bottom: 4vw;
@@ -162,8 +162,8 @@
 	display: flex;
 	flex-direction: column;
 	position: relative;
-	width: 19vw;
-	height: 19vw;
+	width: 21vw;
+	height: 21vw;
 	overflow: hidden;
 	border-radius: 0.4vw;
 }
@@ -187,19 +187,19 @@
 	transform: scale(1.05);
 }
 .bio-ice {
-	margin: 3vw auto 0 auto;
+	margin: 2vw auto 0 auto;
 	width: 85%;
 	color: white;
-	font-size: 0.8vw;
+	font-size: 1vw;
 	text-align: center;
 	justify-self: center;
 	font-family: rubik;
 }
 .bio-text {
-	margin: 2vw auto 0 auto;
+	margin: 1vw auto 0 auto;
 	width: 85%;
 	color: white;
-	font-size: 0.8vw;
+	font-size: 0.9w;
 	text-align: center;
 	justify-self: center;
 	font-family: rubik;
@@ -207,7 +207,7 @@
 }
 .linkedin {
 	position: absolute;
-	top: 16vw;
+	top: 18vw;
 	right: 16px;
 	width: 2vw;
 	height: auto;
