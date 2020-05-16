@@ -228,13 +228,30 @@
 	background: rgba(85, 180, 105, 0.43);
 	font-family: josefin-semibold;
 	color: white;
-	height: 10vw;
+	height: 12vw;
 	width: 100%;
 	justify-content: center;
 	margin: 0 auto 0 auto;
 	text-align: center;
 	bottom: 0;
 	min-height: 10vh;
+}
+.badger {
+	margin-top: 1vw;
+	width: 16vw;
+	height: 4.29vw;
+	box-shadow: none;
+	transform: translateX(0) translateY(0);
+	transition: all 0.5s ease;
+	border-radius: 0.8vw;
+}
+.badger:hover {
+	transform: translateX(-1.5px) translateY(-1.5px);
+	box-shadow: 0.2vw 0.2vw 0.7vw rgba(0, 0, 0, 0.2);
+}
+.badge {
+	width: inherit;
+	height: inherit;
 }
 
 .socials {
@@ -246,6 +263,12 @@
 	width: 1.5vw;
 	height: 1.5vw;
 	margin: 1vw 1vw 0vw 1vw;
+	transition: all 0.5s ease;
+	border-radius: 0.5vw;
+}
+.social-icons:hover {
+	transform: translateX(-1.5px) translateY(-1.5px);
+	box-shadow: 0.2vw 0.2vw 0.7vw rgba(0, 0, 0, 0.2);
 }
 .social-icon {
 	width: inherit;
