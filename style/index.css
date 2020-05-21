@@ -32,7 +32,6 @@
 .content {
 	min-height: 80vh;
 }
-
 .navbar {
 	float: right;
 	font-weight: 300;
@@ -45,7 +44,7 @@
 	color: #777777;
 	margin: 2vw;
 	text-decoration: none;
-	font-size: 1.05vw;
+	font-size: 1.2vw;
 	border-bottom: 1px solid transparent;
 	padding-bottom: 3px;
 	transition: border-bottom 0.7s;
@@ -325,4 +324,122 @@
 .wdb:hover {
 	transform: translateX(-0.07vw) translateY(-0.07vw);
 	text-shadow: 0.1vw 0.1vw 0.1vw #77777730;
+}
+@media only screen and (max-width: 600px) {
+	.nav {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.navbar {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		font-weight: 300;
+		font-family: josefin-regular;
+		margin: 4vw auto 2vw auto;
+		width: 80%;
+	}
+	.navbar a {
+		font-size: 3vw;
+		margin-left: 4vw;
+		margin-bottom: 0;
+	}
+	.navline {
+		margin-top: 0.5vw;
+	}
+	.header-tagline {
+		width: 90%;
+	}
+	.header-text {
+		margin-top: 2vw;
+		font-size: 3vw;
+		width: 85%;
+	}
+	.header-button {
+		width: 40vw;
+		height: 7vw;
+		font-size: 3vw;
+		border-radius: 1vw;
+	}
+	.header-button:hover {
+		font-size: 2.9vw;
+	}
+	.news {
+		width: 90%;
+	}
+	.news-title {
+		font-size: 4vw;
+		width: 100%;
+	}
+	.news-body {
+		font-size: 2.5vw;
+		width: 90%;
+	}
+	.news-button {
+		width: 40vw;
+		height: 7vw;
+		font-size: 2.5vw;
+		border-radius: 1vw;
+		margin-top: 2vw;
+		margin-bottom: 2vw;
+	}
+	.news-button:hover {
+		font-size: 2.4vw;
+	}
+	.projects-title {
+		font-size: 4vw;
+	}
+	.project-cards {
+		display: flex;
+		align-items: center;
+		width: 90%;
+	}
+	.project-row {
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+	}
+	.project-card {
+		width: 90%;
+		height: 55vw;
+		box-shadow: 2px 2px 0.9vw rgba(85, 180, 105, 0.26);
+		margin-top: 3vw;
+		border-radius: 2vw;
+	}
+	.project-name {
+		font-size: 3vw;
+	}
+	.project-descriptor {
+		font-size: 2.5vw;
+	}
+	.project-button {
+		width: 45vw;
+		height: 8vw;
+		font-family: josefin-semibold;
+		font-size: 2.5vw;
+		border-radius: 1vw;
+		margin-top: 2.5vw;
+	}
+	.project-button:hover {
+		font-size: 1.8vw;
+	}
+	.social-icons {
+		border-radius: 0.5vw;
+		width: 6vw;
+		height: 6vw;
+		margin: 2.5vw 2.5vw 1vw 2.5vw;
+	}
+	.badger {
+		width: 32vw;
+		height: 8.6vw;
+		margin-bottom: 2.5vw;
+	}
+	.badge {
+		border-radius: 1vw;
+	}
+	.foot {
+		height: 25vw;
+		margin-top: 20vw;
+	}
 }
