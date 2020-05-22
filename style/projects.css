@@ -16,10 +16,10 @@
 
 /* Background Waves */
 .background {
-	background-image: url('../images/projects/topLeft.webp'),
-		url('../images/projects/topRight.webp'),
-		url('../images/projects/bottomRight.webp'),
-		url('../images/projects/bottomLeft.webp');
+	background-image: url('../images/projects/topLeft.png'),
+		url('../images/projects/topRight.png'),
+		url('../images/projects/bottomRight.png'),
+		url('../images/projects/bottomLeft.png');
 	background-position: left top, right top, bottom right, bottom left;
 	background-repeat: no-repeat;
 	background-size: 75vw;

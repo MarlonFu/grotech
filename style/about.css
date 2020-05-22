@@ -16,10 +16,10 @@
 
 /* Background Waves */
 .background {
-	background-image: url('../images/about/leftGradient.webp'),
-		url('../images/about/rightGradient.webp'),
-		url('../images/about/bottomLeft.webp'),
-		url('../images/about/bottomRight.webp');
+	background-image: url('../images/about/leftGradient.png'),
+		url('../images/about/rightGradient.png'),
+		url('../images/about/bottomLeft.png'),
+		url('../images/about/bottomRight.png');
 	background-position: left top, right top, bottom left, bottom right;
 	background-repeat: no-repeat;
 	background-size: 100%;

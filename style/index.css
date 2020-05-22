@@ -16,10 +16,10 @@
 
 /* Background Waves */
 .background {
-	background-image: url('../images/index/leftGradient.webp'),
-		url('../images/index/rightGradient.webp'),
-		url('../images/index/bottomLeft.webp'),
-		url('../images/index/bottomRight.webp');
+	background-image: url('../images/index/leftGradient.png'),
+		url('../images/index/rightGradient.png'),
+		url('../images/index/bottomLeft.png'),
+		url('../images/index/bottomRight.png');
 	background-position: left top, right top, bottom left, bottom right;
 	background-repeat: no-repeat;
 	background-size: 100%;
@@ -81,30 +81,30 @@
 }
 .header-tagline {
 	height: auto;
-	width: 50%;
+	width: 65%;
 	margin-bottom: 2%;
 }
 .header-text {
 	font-family: rubik;
 	color: #777777;
-	font-size: 1.3vw;
+	font-size: 1.8vw;
 	width: 75%;
 	margin-top: 0.5vw;
 	letter-spacing: 1.5px;
 }
 .header-button {
 	display: flex;
-	width: 13vw;
-	height: 2.5vw;
+	width: 18vw;
+	height: 3.5vw;
 	margin-top: 2%;
 	align-items: center;
 	justify-content: center;
 	background-color: white;
 	font-family: josefin-semibold;
-	font-size: 1vw;
+	font-size: 1.4vw;
 	color: #55b469;
 	letter-spacing: 0.16em;
-	border-radius: 0.3vw;
+	border-radius: 0.5vw;
 	border: none;
 	box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.14);
 	transition: font-size 0.5s, box-shadow 0.5s;
@@ -112,7 +112,7 @@
 }
 .header-button:hover {
 	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.01);
-	font-size: 0.97vw;
+	font-size: 1.35vw;
 	text-decoration: none;
 }
 
@@ -129,14 +129,15 @@
 }
 .news-title {
 	font-family: josefin-semibold;
-	font-size: 1.7vw;
+	font-size: 2.5vw;
 	letter-spacing: 0.2em;
 	color: #777777;
+	width: 70%;
 }
 .news-body {
 	font-family: rubik;
-	font-size: 1vw;
-	width: 60%;
+	font-size: 1.5vw;
+	width: 80%;
 	color: #777777;
 	margin-bottom: 2%;
 	margin-top: 0;
@@ -146,14 +147,14 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: 11vw;
-	height: 2.5vw;
+	width: 18vw;
+	height: 3.5vw;
 	background-color: #ffffff;
 	font-family: josefin-semibold;
-	font-size: 0.85vw;
+	font-size: 1.4vw;
 	color: #777777;
 	letter-spacing: 0.12em;
-	border-radius: 0.3vw;
+	border-radius: 0.5vw;
 	border: none;
 	box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
 	transition: font-size 0.5s, box-shadow 0.5s;
@@ -161,19 +162,19 @@
 }
 .news-button:hover {
 	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.01);
-	font-size: 0.82vw;
+	font-size: 1.35vw;
 	text-decoration: none;
 }
 
 .projects {
-	margin-top: 5vw;
+	margin-top: 3vw;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
 .projects-title {
 	font-family: josefin-semibold;
-	font-size: 2vw;
+	font-size: 2.5vw;
 	letter-spacing: 0.2em;
 	color: #55b469;
 }
@@ -189,8 +190,8 @@
 .project-card {
 	display: flex;
 	border-radius: 1vw;
-	width: 33vw;
-	height: 18vw;
+	width: 38vw;
+	height: 23vw;
 	margin: 1.5vw;
 	padding: 1.5vw;
 	justify-content: center;
@@ -209,25 +210,24 @@
 	transform: rotateZ(0deg);
 }
 .project-card.is-visible:hover {
-	transform: scale(1.1);
+	transform: scale(1.05);
 }
 .project-icon {
 	width: 15%;
 	height: auto;
-	margin-bottom: 0.4vw;
+	margin-bottom: 0.3vw;
 }
 .project-name {
 	margin-bottom: 0px;
 	font-family: josefin-semibold;
 	color: #777777;
-	font-size: 1vw;
+	font-size: 1.5vw;
 }
 .project-descriptor {
 	font-family: rubik;
 	color: #777777;
-	font-size: 0.8vw;
+	font-size: 1vw;
 	width: 90%;
-	letter-spacing: 0.1em;
 }
 .phone-icon {
 	width: auto;
@@ -239,13 +239,13 @@
 	align-items: center;
 	justify-content: center;
 	background-color: white;
-	width: 18vw;
-	height: 2.5vw;
+	width: 25vw;
+	height: 3.5vw;
 	font-family: josefin-semibold;
-	font-size: 0.9vw;
+	font-size: 1.4vw;
 	color: #777777;
 	letter-spacing: 0.12em;
-	border-radius: 0.3vw;
+	border-radius: 0.5vw;
 	border: none;
 	box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
 	margin-top: 2vw;
@@ -254,7 +254,7 @@
 	text-decoration: none;
 }
 .project-button:hover {
-	font-size: 0.87vw;
+	font-size: 1.35vw;
 	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.01);
 	text-decoration: none;
 }
@@ -334,7 +334,7 @@
 	align-items: center;
 	margin-top: 1vw;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
 	.nav {
 		display: flex;
 		flex-direction: column;

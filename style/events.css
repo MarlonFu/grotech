@@ -16,8 +16,8 @@
 
 /* Background Waves */
 .background {
-	background-image: url('../images/index/leftGradient.webp'),
-		url('../images/index/rightGradient.webp');
+	background-image: url('../images/index/leftGradient.png'),
+		url('../images/index/rightGradient.png');
 	background-position: left top, right top;
 	background-repeat: no-repeat;
 	background-size: 100%;
