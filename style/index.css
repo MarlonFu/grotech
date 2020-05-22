@@ -341,7 +341,7 @@
 		width: 80%;
 	}
 	.navbar a {
-		font-size: 3vw;
+		font-size: 3.5vw;
 		margin-left: 4vw;
 		margin-bottom: 0;
 	}
@@ -349,6 +349,7 @@
 		margin-top: 0.5vw;
 	}
 	.header-tagline {
+		margin-top: 10vw;
 		width: 90%;
 	}
 	.header-text {
@@ -361,6 +362,7 @@
 		height: 7vw;
 		font-size: 3vw;
 		border-radius: 1vw;
+		margin-bottom: 7vw;
 	}
 	.header-button:hover {
 		font-size: 2.9vw;
