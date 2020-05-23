@@ -294,3 +294,122 @@
 	align-items: center;
 	margin-top: 1vw;
 }
+
+@media only screen and (max-width: 900px) {
+	.nav {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.navbar {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		font-weight: 300;
+		font-family: josefin-regular;
+		margin: 4vw auto 2vw auto;
+		width: 80%;
+	}
+	.navbar a {
+		font-size: 3.5vw;
+		margin-left: 4vw;
+		margin-bottom: 0;
+	}
+	.navline {
+		margin-top: 0.5vw;
+	}
+	.header-image {
+		width: 50vw;
+		margin-bottom: 0;
+	}
+	.past-project-title {
+		font-size: 2.5vw;
+	}
+	.media-p1 {
+		display: flex;
+		flex-direction: column;
+	}
+	.p1 {
+		margin: 0;
+		width: inherit;
+		font-size: 2vw;
+		line-height: 2.5vw;
+		margin-top: 3vw;
+	}
+	.youtube {
+		width: 50vw;
+	}
+	.winning-submission {
+		width: 50vw;
+		height: 6vw;
+		font-size: 2vw;
+		margin-top: 2vw;
+		border-radius: 1vw;
+	}
+	.winning-submission:hover {
+		font-size: 1.97vw;
+	}
+	.working-on {
+		margin: 0 auto 0 auto;
+		width: 75vw;
+	}
+	.instructions {
+		margin: 2vw auto 4vw auto;
+		font-size: 3vw;
+	}
+	.row {
+		height: 50%;
+	}
+	.project-grid {
+		width: 85vw;
+	}
+	.project {
+		margin-right: 0;
+		margin-left: 2vw;
+	}
+	.project-name {
+		font-size: 2.3vw;
+		width: inherit;
+	}
+	.icon {
+		height: 7vw;
+		width: auto;
+		transition: height 0.5s;
+	}
+	.icon:hover {
+		height: 7vw;
+	}
+	.project-description {
+		font-size: 2.3vw;
+	}
+	.social-icons {
+		border-radius: 0.5vw;
+		width: 8vw;
+		height: 8vw;
+		margin: 2.5vw 2.5vw 1vw 2.5vw;
+	}
+	.foot {
+		height: 60vw;
+		margin-top: 20vw;
+	}
+	.disclaimer {
+		width: 80%;
+		font-size: 2.3vw;
+		font-family: rubik;
+		margin-bottom: 1vw;
+	}
+	.wdb-badge-image {
+		width: auto;
+		height: 13vw;
+	}
+	.ocf-badge-image {
+		height: 13vw;
+		margin-top: 2vw;
+	}
+	.badges {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-top: 2vw;
+	}
+}

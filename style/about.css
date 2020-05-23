@@ -291,3 +291,76 @@
 	font-family: rubik;
 	margin-bottom: 1vw;
 }
+
+@media only screen and (max-width: 900px) {
+	.nav {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.navbar {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		font-weight: 300;
+		font-family: josefin-regular;
+		margin: 4vw auto 2vw auto;
+		width: 80%;
+	}
+	.navbar a {
+		font-size: 3.5vw;
+		margin-left: 4vw;
+		margin-bottom: 0;
+	}
+	.navline {
+		margin-top: 0.5vw;
+	}
+	.header-tagline {
+		margin-top: 5vw;
+		width: 90%;
+	}
+	.header-text {
+		margin-top: 2vw;
+		font-size: 3vw;
+		width: 85%;
+	}
+	.member-row {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		height: 20%;
+		width: 100%;
+	}
+	.team-member {
+		width: 80%;
+	}
+	.team-member-shown {
+		width: 80%;
+	}
+	.photo-container {
+		width: 55vw;
+		height: 55vw;
+	}
+	.member-name {
+		font-size: 3.5vw;
+	}
+	.member-role {
+		font-size: 3vw;
+		width: 95%;
+	}
+	.bio-ice {
+		font-size: 3vw;
+		margin-top: 7vw;
+	}
+	.bio-text {
+		font-size: 3vw;
+		line-height: 3.2vw;
+	}
+	.linkedin {
+		position: absolute;
+		top: 47vw;
+		right: 16px;
+		width: 5vw;
+		height: auto;
+	}
+}

@@ -68,7 +68,69 @@
 .navline.two {
 	width: 75%;
 }
-
+label {
+	font-family: josefin-regular;
+	font-size: 1.5vw;
+}
+.name {
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 0;
+	margin-top: 5vw;
+}
+.last-name {
+	margin-left: 2vw;
+}
+.big {
+	height: 5vw;
+}
+.email {
+	margin-top: 0;
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type='text'],
+select,
+textarea {
+	width: 100%; /* Full width */
+	padding: 12px; /* Some padding */
+	border: none; /* Gray border */
+	box-shadow: 1px 1px 18px rgba(0, 0, 0, 0.1);
+	border-radius: 0.4vw; /* Rounded borders */
+	box-sizing: border-box; /* Make sure that padding and width stays in place */
+	margin-top: 6px; /* Add a top margin */
+	margin-bottom: 16px; /* Bottom margin */
+	resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+	font-family: rubik;
+	font-size: 1.5vw;
+	overflow: scroll;
+}
+/* Style the submit button with a specific background color etc */
+input[type='submit'] {
+	background-color: #4caf50;
+	color: white;
+	border-radius: 0.4vw;
+	border: none;
+	cursor: pointer;
+	font-family: rubik;
+	width: 15vw;
+	height: 3vw;
+	font-size: 1.5vw;
+	transition: all 0.5s ease;
+	margin-top: 0;
+}
+/* When moving the mouse over the submit button, add a darker green color */
+input[type='submit']:hover {
+	background-color: #45a049;
+	font-size: 0.97vw;
+}
+/* Add a background color and some padding around the form */
+.form {
+	border-radius: 5px;
+	background-color: #ffffff;
+	padding: 20px;
+	font-family: josefin-semibold;
+	box-shadow: 4px 4px 0.9vw rgba(85, 180, 105, 0.26);
+}
 .foot {
 	display: flex;
 	flex-direction: column;
