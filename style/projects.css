@@ -108,7 +108,7 @@
 	margin-left: 2vw;
 	width: 95vh;
 	line-height: 1.2vw;
-	font-size: 1.1vw;
+	font-size: 1.2vw;
 	color: #777777;
 }
 .p1.p2 {
@@ -332,12 +332,12 @@
 	.p1 {
 		margin: 0;
 		width: inherit;
-		font-size: 2vw;
-		line-height: 2.5vw;
+		font-size: 3vw;
+		line-height: 3vw;
 		margin-top: 3vw;
 	}
 	.youtube {
-		width: 50vw;
+		width: 60vw;
 	}
 	.winning-submission {
 		width: 50vw;
@@ -377,10 +377,10 @@
 		transition: height 0.5s;
 	}
 	.icon:hover {
-		height: 7vw;
+		height: 8vw;
 	}
 	.project-description {
-		font-size: 2.3vw;
+		font-size: 2.5vw;
 	}
 	.social-icons {
 		border-radius: 0.5vw;

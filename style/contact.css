@@ -204,3 +204,95 @@ input[type='submit']:hover {
 	align-items: center;
 	margin-top: 1vw;
 }
+
+@media only screen and (max-width: 900px) {
+	.nav {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.navbar {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		font-weight: 300;
+		font-family: josefin-regular;
+		margin: 4vw auto 2vw auto;
+		width: 80%;
+	}
+	.navbar a {
+		font-size: 3.5vw;
+		margin-left: 4vw;
+		margin-bottom: 0;
+	}
+	.navline {
+		margin-top: 0.5vw;
+	}
+	.name {
+		display: flex;
+		flex-direction: column;
+		margin-bottom: 0;
+	}
+	.last-name {
+		margin-left: 0;
+		margin-top: 0;
+	}
+	.content {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin: 0;
+		margin: 0 auto 0 auto;
+	}
+	.big {
+		height: 20vw;
+	}
+	label {
+		font-family: josefin-regular;
+		font-size: 4vw;
+	}
+	form {
+		width: 80vw;
+	}
+	input[type='text'],
+	select,
+	textarea {
+		font-size: 3vw;
+	}
+	input[type='submit'] {
+		font-size: 4vw;
+		width: 40vw;
+		height: 10vw;
+		border-radius: 1vw;
+	}
+	.social-icons {
+		border-radius: 0.5vw;
+		width: 8vw;
+		height: 8vw;
+		margin: 2.5vw 2.5vw 1vw 2.5vw;
+	}
+	.foot {
+		height: 60vw;
+		margin-top: 20vw;
+	}
+	.disclaimer {
+		width: 80%;
+		font-size: 2.3vw;
+		font-family: rubik;
+		margin-bottom: 1vw;
+	}
+	.wdb-badge-image {
+		width: auto;
+		height: 13vw;
+	}
+	.ocf-badge-image {
+		height: 13vw;
+		margin-top: 2vw;
+	}
+	.badges {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-top: 2vw;
+	}
+}

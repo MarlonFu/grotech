@@ -363,4 +363,34 @@
 		width: 5vw;
 		height: auto;
 	}
+	.social-icons {
+		border-radius: 0.5vw;
+		width: 8vw;
+		height: 8vw;
+		margin: 2.5vw 2.5vw 1vw 2.5vw;
+	}
+	.foot {
+		height: 60vw;
+		margin-top: 20vw;
+	}
+	.disclaimer {
+		width: 80%;
+		font-size: 2.3vw;
+		font-family: rubik;
+		margin-bottom: 1vw;
+	}
+	.wdb-badge-image {
+		width: auto;
+		height: 13vw;
+	}
+	.ocf-badge-image {
+		height: 13vw;
+		margin-top: 2vw;
+	}
+	.badges {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-top: 2vw;
+	}
 }
