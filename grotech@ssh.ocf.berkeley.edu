@@ -59,13 +59,14 @@
 						NASA'S GROWING BEYOND EARTH CHALLENGE WINNERS
 					</h1>
 					<p class="news-body">
-						Our team won Year 1 of the Growing Beyond Earth Maker Contest. This
-						competition challenges makers to design, prototype, and eventually
-						build and test plant growth chambers optimized for micro-gravity
-						environments. Each submission is standardized to growing red romaine
-						lettuce; must fit within a 50 cm cube; take into consideration
-						lighting, irrigation, and airflow; and improve upon some aspect of
-						NASA's current plant growth chamber, Veggie.
+						Our team won Phase One of The Growing Beyond Earth Maker Challenge.
+						This competition challenges makers from high school, college, and
+						professional levels to design, prototype, and eventually build and
+						test plant growth chambers optimized for micro-gravity environments.
+						Each submission is standardized to growing red romaine lettuce; must
+						fit within a 50 cm cube; take into consideration lighting,
+						irrigation, and airflow; and improve upon some aspect of NASA's
+						current plant growth chamber, Veggie.
 					</p>
 					<a href="projects.html" class="news-button">READ MORE</a>
 				</div>
@@ -95,18 +96,15 @@
 							</div>
 							<div class="project-card show-on-scroll">
 								<img class="project-icon" src="./images/index/cube.png" />
-								<h2 class="project-name">Growing Beyond Earth Year 2</h2>
+								<h2 class="project-name">GROWING BEYOND EARTH PHASE 2</h2>
 								<p class="project-descriptor">
-									Growing plants aboard spacecraft consumes valuable space and
-									requires regular maintenance. The Growing Beyond Earth project
-									team is developing a microgravity-compatible plant growth
-									chamber that maximizes production in a constrained volume. For
-									the design portion of our project, we have so far achieved a
-									four-fold increase in space utilization compared to The
-									Vegetable Production System (Veggie) aboard the ISS. Our goal
-									for Year 2 is to maintain or efficientize this space
-									utilization and automate our system’s lighting, air
-									circulation, and watering.
+									Growing Beyond Earth Phase 2 is the continuation from the
+									first phase of the competition, in which our team had won. We
+									are focusing on growing and maximizing edible lettuce biomass
+									in SeedShuttle, our beloved plant growth chamber. We are also
+									working to make our chamber more environmentally friendly
+									through sustainable plant pots with our sustainability
+									committee.
 								</p>
 							</div>
 						</div>
