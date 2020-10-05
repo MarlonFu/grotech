@@ -265,8 +265,8 @@
 	}
 	.social-icons {
 		border-radius: 0.5vw;
-		width: 8vw;
-		height: 8vw;
+		width: 30px;
+		height: 30px;
 		margin: 2.5vw 2.5vw 1vw 2.5vw;
 	}
 	.foot {
@@ -281,10 +281,10 @@
 	}
 	.wdb-badge-image {
 		width: auto;
-		height: 13vw;
+		height: 60px;
 	}
 	.ocf-badge-image {
-		height: 13vw;
+		height: 60px;
 		margin-top: 2vw;
 	}
 	.badges {
@@ -292,5 +292,13 @@
 		flex-direction: column;
 		align-items: center;
 		margin-top: 2vw;
+	}
+	.esc-badge {
+		margin-right: 20px;
+		margin-top: 20px;
+	}
+	.cnr-badge {
+		margin-left: 15px;
+		margin-bottom: 20px;
 	}
 }
