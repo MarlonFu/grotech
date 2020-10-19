@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, shrink-to-fit=no"
+		/>
+		<meta
+			name="description"
+			content="GroTech @ Berkeley is dedicated to providing students with hands-on learning 
+			opportunities at the intersection of botany and technology. Every semester, we identify 
+			agricultural challenges and assemble interdisciplinary project teams to tackle those problems."
+		/>
+		<link rel="stylesheet" href="./style/index.css" />
+		<link
+			rel="icon"
+			href="./images/gTFavicon-01.png"
+			type="image/gif"
+			sizes="16x16"
+		/>
+		<title>GroTech @ Berkeley</title>
+	</head>
+	<body class="background">
+		<div class="wrap">
+			<!-- Navbar -->
+			<div class="nav">
+				<div class="navbar">
+					<a class="active" href="index.html">HOME</a>
+					<a href="./static/about.html">ABOUT</a>
+					<a href="./static/projects.html">PROJECTS</a>
+					<a href="./static/events.html">EVENTS</a>
+					<a href="./static/contact.html">CONTACT</a>
+					<a href="./static/apply.html">APPLY</a>
+				</div>
+				<hr class="navline" />
+			</div>
+			<div class="content">
+				<!-- Tagline and club statement -->
+				<div class="header">
+					<img src="./images/index/landingHead.png" class="header-tagline" />
+					<p class="header-text">
+						GroTech @ Berkeley is dedicated to providing students with hands-on
+						learning opportunities at the intersection of botany and technology.
+						Every semester, we identify agricultural challenges and assemble
+						interdisciplinary project teams to tackle those problems. In these
+						project teams, students research, design, and build innovative plant
+						growth technologies, enriching their educational journey while
+						meaningfully contributing to society.
+					</p>
+					<a href="./static/about.html" class="header-button">LEARN MORE</a>
+				</div>
+				<hr class="navline two" />
+
+				<!-- GBE Contest News -->
+				<div class="news">
+					<h1 class="news-title">
+						NASA'S GROWING BEYOND EARTH CHALLENGE WINNERS
+					</h1>
+					<p class="news-body">
+						Our team won Phase One of The Growing Beyond Earth Maker Challenge.
+						This competition challenges makers from high school, college, and
+						professional levels to design, prototype, and eventually build and
+						test plant growth chambers optimized for micro-gravity environments.
+						Each submission is standardized to growing red romaine lettuce; must
+						fit within a 50 cm cube; take into consideration lighting,
+						irrigation, and airflow; and improve upon some aspect of NASA's
+						current plant growth chamber, Veggie.
+					</p>
+					<a href="projects.html" class="news-button">READ MORE</a>
+				</div>
+				<hr class="navline two" />
+
+				<!-- Project previews -->
+				<div class="projects">
+					<h1 class="projects-title">2020-2021 PROJECTS</h1>
+					<div class="project-cards">
+						<div class="project-row">
+							<div class="project-card show-on-scroll">
+								<img
+									class="project-icon"
+									src="./images/index/hydroponics.png"
+								/>
+								<h2 class="project-name">
+									ENERGY-EFFICIENT HYDROPONICS SYSTEM
+								</h2>
+								<p class="project-descriptor">
+									Hydroponics is a method of growing plants in water. This
+									method is water-conservative and high yield, yet it is
+									incredibly inefficient, energy-wise as it consumes incredible
+									amounts of power for LED lights and water/air pumps. Our
+									objective is to design a novel system that reduces
+									energy-waste and draws power from renewable solar energy.
+								</p>
+							</div>
+							<div class="project-card show-on-scroll">
+								<img class="project-icon" src="./images/index/cube.png" />
+								<h2 class="project-name">GROWING BEYOND EARTH PHASE 2</h2>
+								<p class="project-descriptor">
+									Growing Beyond Earth Phase 2 is the continuation from the
+									first phase of the competition, in which our team had won. We
+									are focusing on growing and maximizing edible lettuce biomass
+									in SeedShuttle, our beloved plant growth chamber. We are also
+									working to make our chamber more environmentally friendly
+									through sustainable plant pots with our sustainability
+									committee.
+								</p>
+							</div>
+						</div>
+					</div>
+					<a href="./static/projects.html" class="project-button"
+						>SEE FULL PROJECT PAGE</a
+					>
+				</div>
+			</div>
+			<footer class="foot">
+				<div class="socials">
+					<a
+						href="https://www.instagram.com/grotech.berkeley/"
+						class="social-icons"
+						target="_blank"
+					>
+						<img src="./images/IG.png" class="social-icon" />
+					</a>
+
+					<a
+						href="https://www.facebook.com/grotech.berkeley/"
+						class="social-icons"
+						target="_blank"
+					>
+						<img src="./images/FB.png" class="social-icon" />
+					</a>
+
+					<a
+						href="https://www.linkedin.com/company/grotech-berkeley/"
+						class="social-icons"
+						target="_blank"
+					>
+						<img src="./images/LI.png" class="social-icon" />
+					</a>
+				</div>
+				<div class="badges">
+					<a href="https://webatberkeley.org/" target="_blank">
+						<img src="./images/badge.png" class="wdb-badge-image" />
+					</a>
+					<a href="https://www.ocf.berkeley.edu" target="_blank">
+						<img
+							src="https://www.ocf.berkeley.edu/hosting-logos/ocf-hosted-penguin.svg"
+							class="ocf-badge-image"
+						/>
+					</a>
+				</div>
+
+				<p class="disclaimer">
+					We are a student group acting independently of the University of
+					California. We take full responsibility for our organization and this
+					web site.
+				</p>
+			</footer>
+		</div>
+		<script type="text/javascript" src="./script/show-on-scroll.js"></script>
+	</body>
+</html>
